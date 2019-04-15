@@ -19,7 +19,7 @@ private $password = '';
 private $dbh;
 
 
-function __construct($dbname="milestone451pm",$username="greenflag", $password="Harmeet915pm#") {
+function __construct($dbname="YOUR_DB_NAME",$username="USERNAME", $password="PASSWORD") {
         try {
                 $this->dbh = new PDO("mysql:host=$this->hostname;dbname=$dbname", $username, $password);
                 /*** echo a message saying we have connected ***/
